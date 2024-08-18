@@ -1,0 +1,82 @@
+body {
+  height: 100%;
+
+  background: linear-gradient(
+    120deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.container{
+  margin-top: 100px;
+}
+
+
+.drop {
+  position: absolute;
+  background-color: antiquewhite;
+  
+  width: 95%;
+
+  border: 2px solid #ddd;
+  z-index: 1;
+}
+.nav{
+  padding: 30px;
+ justify-content: center  ;
+ font-size: larger;
+ 
+}
+#searchItem{
+  list-style-type: none;
+  border: 2px solid #ddd;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  
+ 
+
+ 
+}
+.fa{
+
+  position: relative;
+
+}
+img{
+  width: 200px;
+  margin: 20px;
+  
+}
+.card{
+  font-size: 18px;
+  padding: 10px;
+  box-shadow: 5px 2px 5px 2px black;;
+}
+.card-body{
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+.center{
+  text-align: center;
+  font-size: 100px;
+}
+#searchItem:hover{
+  cursor: pointer ;
+}
+
+.searchForm{
+  padding: 15px;
+width: 100%;
+margin-top:20px;
+
+}
+.searchForm:hover{
+  background-color: azure;
+  cursor: text ;
+  opacity: 0.2;
+}
+.searchForm:focus{
+  opacity:1;
+}
